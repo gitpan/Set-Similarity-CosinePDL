@@ -9,7 +9,7 @@ use PDL;
 
 use parent 'Set::Similarity';
 
-our $VERSION = '0.007';
+our $VERSION = '0.008';
 
 sub from_sets {
   my ($self, $set1, $set2) = @_;
@@ -78,7 +78,6 @@ __END__
 Set::Similarity::CosinePDL - Cosine similarity for sets PDL implementation
 
 =for html
-
 <a href="https://travis-ci.org/wollmers/Set-Similarity-CosinePDL"><img src="https://travis-ci.org/wollmers/Set-Similarity-CosinePDL.png" alt="Set-Similarity-CosinePDL"></a>
 <a href='https://coveralls.io/r/wollmers/Set-Similarity-CosinePDL?branch=master'><img src='https://coveralls.io/repos/wollmers/Set-Similarity-CosinePDL/badge.png?branch=master' alt='Coverage Status' /></a>
 
